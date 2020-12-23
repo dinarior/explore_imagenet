@@ -33,3 +33,7 @@ from exin.exin import whole_dict
 ```
 
 And play with it as you will.
+
+
+### Alternative
+If you dislike installing packages, you can just play with the attached [notebook](https://github.com/dinarior/explore_imagenet/blob/main/explore_imagenet.ipynb) as well for the same functionality.
