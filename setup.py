@@ -31,12 +31,12 @@ with open(os.path.join(repo_root, "README.md"), encoding="utf-8") as f:
     long_description = f.read()
 
 
-ns = pyload(os.path.join(repo_root,  "ewn", "release.py"))
+ns = pyload(os.path.join(repo_root,  "exin", "release.py"))
 version = ns["__version__"]
 
 
 
-setup(name='ewn',
+setup(name='exin',
       version=version,
       description="Explore WordNet",
       long_description=long_description,
