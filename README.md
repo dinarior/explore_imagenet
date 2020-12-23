@@ -24,3 +24,12 @@ find_class('n02356798')
  'fox squirrel, eastern fox squirrel, Sciurus niger']
 ```
 
+This package basically turn the `structure_released.xml` of WordNet to a python dictionary (this was not made with efficiency in mind...) then given a class, say `n02356798`, returns the path from the root, with all the classes id's and descriptions. <br>
+
+You can also access the whole dictionary by using
+
+```
+from exin.exin import whole_dict
+```
+
+And play with it as you will.
