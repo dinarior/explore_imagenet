@@ -6,6 +6,9 @@ Tiny package to easily explore the WordNet (and subsequently, ImageNet) structur
 ### Usage
 
 ```
+pip install exin
+```
+```
 from exin.exin import find_class
 
 find_class('n02356798')
